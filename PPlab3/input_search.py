@@ -12,5 +12,6 @@ def regexIP(string: str):
     else:
         print("ip-адрес некорректен")
         return False
-string = input("Введите ip-адрес ")
-regexIP(string)
+if __name__ == "__main__":
+    string = input("Введите ip-адрес ")
+    regexIP(string)
